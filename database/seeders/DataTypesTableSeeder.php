@@ -18,7 +18,7 @@ class DataTypesTableSeeder extends Seeder
                 'name'                  => 'plans',
                 'display_name_singular' => __('joy-voyager-bread-plan::seeders.data_types.plan.singular'),
                 'display_name_plural'   => __('joy-voyager-bread-plan::seeders.data_types.plan.plural'),
-                'icon'                  => 'voyager-bread',
+                'icon'                  => 'voyager-bread voyager-bread-plan voyager-tag',
                 'model_name'            => 'Joy\\VoyagerBreadPlan\\Models\\Plan',
                 // 'policy_name'           => 'Joy\\VoyagerBreadPlan\\Policies\\PlanPolicy',
                 // 'controller'            => 'Joy\\VoyagerBreadPlan\\Http\\Controllers\\VoyagerBreadPlanController',
